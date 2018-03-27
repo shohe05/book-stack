@@ -1,0 +1,14 @@
+{
+  "name": "book-stack",
+  "version": "1.0.0",
+  "description": "## 目的 積読管理",
+  "author": "shotana",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotana/book-stack.git"
+  }
+}
