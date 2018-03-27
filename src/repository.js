@@ -12,7 +12,7 @@ class Repository {
   
   addItem(title) {
     const item = {
-      "id": nextId,
+      "id": this.nextId,
       "title": title,
       "status": BOOK_STATUS_TODO
     };

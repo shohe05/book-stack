@@ -10,7 +10,7 @@ class Presenter {
   
   done(id) {
     this.repo.doneItem(id);
-    return repo.list();
+    return this.repo.list();
   }
   
   list() {
