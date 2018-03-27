@@ -19,7 +19,7 @@ class Repository {
   
     this.items.push(item);
     
-    // increment
+    // increment id
     ++this.nextId;
 
     _save();
