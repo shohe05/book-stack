@@ -18,7 +18,10 @@ class Repository {
     };
   
     this.items.push(item);
+    
+    // increment
     ++this.nextId;
+
     _save();
   }
   
@@ -43,4 +46,5 @@ class Repository {
   }
 }
 
+// export as singleton
 module.exports = new Repository();
