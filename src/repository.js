@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const BOOK_STATUS_TODO = 0;
-const BOOK_STATUS_DONE = 1;
+const ITEM_STATUS_TODO = 0;
+const ITEM_STATUS_DONE = 1;
 const DATA_FILE = "./data.json";
 
 class Repository {
